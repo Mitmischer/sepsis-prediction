@@ -4,7 +4,7 @@ This repository contains code for predicting sepsis occurrence using an LSTM-bas
 
 ## Installation
 1) Copy training.tar.zst to the path /sepsis in your Google Drive.
-2) Open preprocessing.ipynb in Google Colab.
+2) Open preprocessing_prediction.ipynb in Google Colab.
 
 ## Results
 
