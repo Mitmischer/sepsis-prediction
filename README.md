@@ -3,8 +3,18 @@
 This repository contains code for predicting sepsis occurrence using an LSTM-based deep learning model. The goal is to predict the occurrence of sepsis using time series data from multiple patients, using the [PhysioNet/Computing in Cardiology Challenge 2019 Dataset](https://physionet.org/content/challenge-2019/1.0.0/).
 
 ## Installation
-1) Copy training.tar.zst to the path /sepsis in your Google Drive.
-2) Open preprocessing_prediction.ipynb in Google Colab.
+1) Clone the repository:
+
+    git clone https://github.com/msplittgerber/sepsis-shock-prediction.git
+
+2) Explore the Jupyter notebook in the repository:
+   Covers the preprocessing steps for handling missing values, feature engineering, and scaling the data.
+   Includes feature selection using xgboost.
+   Includes the implementation of the LSTM model and training process.
+   Evaluates the trained model on the test set and computes performance metrics.
+   
+3) Modify the code and experiment with different parameters as needed.
+
 
 ## Results
 
